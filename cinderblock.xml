@@ -24,10 +24,6 @@
 		<header>libs/Mac/include/DeckLinkAPIStreaming.h</header>
 		<header>libs/Mac/include/DeckLinkAPITypes.h</header>
 		<header>libs/Mac/include/DeckLinkAPIVersion.h</header>
-        <!--
-		<headerPattern>libs/Mac/include/*.h</headerPattern>
-		<sourcePattern>libs/Mac/include/*.cpp</sourcePattern>
-         -->
 	</platform>
 	
 </block>
