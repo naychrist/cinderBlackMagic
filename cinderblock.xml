@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cinder>
+<block
+	name="BlackMagic"
+	id=""
+	author="Jens Heinen"
+	summary="Wraps BlackMagic DeckLink SDK."
+	license=""
+	git=""
+	version="0.3"
+	library=""
+	>
+	
+	<headerPattern>src/*.h</headerPattern>
+	<sourcePattern>src/*.cpp</sourcePattern>
+	
+	<platform os="macosx">
+        <header>libs/Mac/include/DeckLinkAPI.h</header>
+		<header>libs/Mac/include/DeckLinkAPIConfiguration.h</header>
+		<header>libs/Mac/include/DeckLinkAPIDeckControl.h</header>
+		<header>libs/Mac/include/DeckLinkAPIDiscovery.h</header>
+		<source>libs/Mac/include/DeckLinkAPIDispatch.cpp</source>
+		<header>libs/Mac/include/DeckLinkAPIModes.h</header>
+		<header>libs/Mac/include/DeckLinkAPIStreaming.h</header>
+		<header>libs/Mac/include/DeckLinkAPITypes.h</header>
+		<header>libs/Mac/include/DeckLinkAPIVersion.h</header>
+        <!--
+		<headerPattern>libs/Mac/include/*.h</headerPattern>
+		<sourcePattern>libs/Mac/include/*.cpp</sourcePattern>
+         -->
+	</platform>
+	
+</block>
+</cinder>
